@@ -1,0 +1,44 @@
+nav {
+  width: 100%;
+}
+#logo {
+  height: 30px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(99, 98, 98, 0.2);
+  display: none;
+  position: absolute;
+  min-width: 400px;
+  z-index: 1;
+  top: 100%; /* Position the dropdown below the trigger element */
+  left: 50%; /* Center the dropdown relative to the trigger element */
+  transform: translateX(-50%);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content li:hover + hr {
+  transition: ease 0.5s;
+  opacity: 0;
+}
+/* Style for the list items */
+.dropdown-content ul {
+  list-style: none;
+}
+
+.dropdown-content li {
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+.dropdown-content li:hover {
+  background-color: rgb(250 250 250);
+}

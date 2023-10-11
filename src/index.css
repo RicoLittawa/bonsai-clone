@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Proxima-Nova"; /* Use the same name you defined in the Tailwind config */
+  src: url("./assets/Proxima-Nova-Font/proxima_ssv/ProximaNova-Regular.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Amerigo"; /* Use the same name you defined in the Tailwind config */
+  src: url("./assets/amerigoboldbt/Amerigo\ Bold\ BT.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+}
