@@ -1,9 +1,12 @@
 nav {
   width: 100%;
+  z-index: 1;
 }
 #logo {
-  height: 30px;
+  height: 33px;
 }
+
+/*****Dropdown*****/
 .dropdown {
   position: relative;
   display: inline-block;
@@ -18,7 +21,7 @@ nav {
   z-index: 1;
   top: 100%; /* Position the dropdown below the trigger element */
   left: 50%; /* Center the dropdown relative to the trigger element */
-  transform: translateX(-50%);
+  translate: -50%;
 }
 
 .dropdown:hover .dropdown-content {
@@ -41,4 +44,14 @@ nav {
 
 .dropdown-content li:hover {
   background-color: rgb(248, 248, 248);
+}
+/*****Dropdown*****/
+.blue-shape {
+  position: absolute;
+  z-index: -1;
+  width: 85%;
+  height: 190%;
+  rotate: z -23deg;
+  top: -80%;
+  left: 0;
 }

@@ -1,11 +1,14 @@
 import "./App.css";
+import Content from "./Content";
 import Navigation from "./Navigation";
 
 function App() {
   return (
-    <main>
+    <main id="main-content">
       <Navigation />
-      <section></section>
+      <Content/>
+
+     
     </main>
   );
 }
