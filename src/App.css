@@ -48,10 +48,11 @@ nav {
 /*****Dropdown*****/
 .blue-shape {
   position: absolute;
+  border-radius: 50px;
   z-index: -1;
   width: 85%;
-  height: 190%;
-  rotate: z -23deg;
-  top: -80%;
-  left: 0;
+  height: 125%;
+  transform: rotateZ(-23deg);
+  top: -55%;
+  left: 20rem;
 }
