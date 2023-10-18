@@ -4,18 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        regular: ["Proxima-Nova", "sans"],
-        bold: ["Amerigo", "sans"],
+        subtitle: ["Proxima-Nova", "sans"],
+        title: ["amerigo", "sans"],
       },
       fontSize: {
         buttonFt: "13px",
         xsm: "14px",
         sm: "17px",
-        xl: "22px",
-        "2xl": "1.563rem",
-        "3xl": "1.953rem",
-        "4xl": "2.441rem",
-        "5xl": "3.052rem",
+        large:"20px",
+        xl: "40px",
       },
     },
   },

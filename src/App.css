@@ -46,13 +46,14 @@ nav {
   background-color: rgb(248, 248, 248);
 }
 /*****Dropdown*****/
+
 .blue-shape {
   position: absolute;
   border-radius: 50px;
   z-index: -1;
-  width: 85%;
-  height: 125%;
+  width: 90%; /* Fixed width in pixels */
+  height: 1000px; /* Fixed height in pixels */
   transform: rotateZ(-23deg);
-  top: -55%;
-  left: 20rem;
+  top: -390px; /* Fixed position from the top in pixels */
+  left: 230px; /* Fixed position from the left in pixels */
 }

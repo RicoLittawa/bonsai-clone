@@ -3,24 +3,20 @@
 @tailwind utilities;
 @font-face {
   font-family: "Proxima-Nova"; /* Use the same name you defined in the Tailwind config */
-  src: url("./assets/Proxima-Nova-Font/proxima_ssv/ProximaNova-Regular.otf")
+  src: url("./assets/Proxima-Nova-Font/proxima_ssv/Proxima Nova Alt Light.otf")
     format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 @font-face {
-  font-family: "Amerigo"; /* Use the same name you defined in the Tailwind config */
-  src: url("./assets/amerigoboldbt/Amerigo\ Bold\ BT.ttf") format("truetype");
-  font-weight: bold;
-  font-style: bold;
+  font-family: "amerigo";
+  src: url("./assets/amerigo-bt-roman/Amerigo BT Roman/Amerigo BT Roman.ttf") format("truetype");
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 body {
   margin: 0;
-  min-height: 100vh;
+  min-height: 100%;
   overflow: hidden;
 }
