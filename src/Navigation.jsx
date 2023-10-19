@@ -3,7 +3,7 @@ import Arrow from "./assets/expand_more_FILL0_wght400_GRAD0_opsz24.svg";
 
 export default function Navigation() {
   return (
-    <nav className="bg-white py-5">
+    <nav className="bg-white py-5 w-screen">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <img src={Logo} alt="Logo" className="pr-32 cursor-pointer" id="logo" />
         <ul className="flex space-x-5">

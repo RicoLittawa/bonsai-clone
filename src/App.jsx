@@ -4,11 +4,9 @@ import Navigation from "./Navigation";
 
 function App() {
   return (
-    <main id="main-content">
+    <main id="max-w-md">
       <Navigation />
-      <Content/>
-
-     
+      <Content />
     </main>
   );
 }
