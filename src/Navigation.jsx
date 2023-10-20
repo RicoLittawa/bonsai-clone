@@ -71,10 +71,10 @@ export default function Navigation() {
           </li>
         </ul>
         <div className="flex space-x-5">
-          <button className="border-solid border-2 text-[#00b289]  border-[#00b289] font-subtitle text-buttonFt font-bold rounded-md px-6 py-2 tracking-widest hover:bg-[#00b289] hover:text-white">
+          <button className="border-solid border-2 text-[#00b289]  border-[#00b289] font-subtitle-bold text-buttonFt font-bold rounded-md px-6 py-2 tracking-widest hover:bg-[#00b289] hover:text-white">
             LOG IN
           </button>
-          <button className="rounded-md px-6 py-2 bg-[#00b289] font-subtitle text-buttonFt font-bold text-white tracking-widest hover:bg-[#00b288e5] ">
+          <button className="rounded-md px-6 py-2 bg-[#00b289] font-subtitle-bold text-buttonFt font-bold text-white tracking-widest hover:bg-[#00b288e5] ">
             START FREE
           </button>
         </div>

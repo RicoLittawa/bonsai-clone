@@ -52,7 +52,7 @@ export default function PlansPricing() {
           </h4>
         </div>
       </div>
-      <Cards />
+      <Cards toggle={toggle}/>
     </section>
   );
 }

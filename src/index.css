@@ -7,6 +7,11 @@
     format("truetype");
 }
 @font-face {
+  font-family: "Proxima-Nova-Bold";
+  src: url("./assets/proximanova-bold.otf")
+    format("truetype");
+}
+@font-face {
   font-family: "amerigo";
   src: url("./assets/amerigo-bt-roman/Amerigo BT Roman/Amerigo BT Roman.ttf")
     format("truetype");
