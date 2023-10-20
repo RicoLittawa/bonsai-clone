@@ -13,7 +13,7 @@ export default function Cards({ toggle }) {
     "Expense Tracking",
     "Up to 5 Project Collaborators",
   ];
-  const [starter, setStarter] = useState(24);
+  const [starter, setStarter] = useState();
   useEffect(() => {
     if (toggle) {
       setStarter(17);
@@ -39,10 +39,15 @@ export default function Cards({ toggle }) {
               <h1 className="text-xxl font-semibold text-[#4c525a]">
                 {starter}
               </h1>
-              <span className="text-[#4c525a] font-normal text-customL pt-12 pl-4">
+              <span className="text-[#4c525a] font-normal text-customL pt-14 pl-4">
                 /MONTH
               </span>
             </div>
+            {toggle && (
+              <div className="text-end pr-5 text-list text-[#4c525a] font-subtitle">
+                Billed yearly
+              </div>
+            )}
             <hr className="h-0.5  bg-[#00b289] border-0 " />
             <div className="pt-10">
               {starterList.map((starter, index) => (

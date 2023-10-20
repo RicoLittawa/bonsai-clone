@@ -7,7 +7,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <img src={Logo} alt="Logo" className="pr-32 cursor-pointer" id="logo" />
         <ul className="flex space-x-5">
-          <li className="font-normal font-subtitle text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
+          <li className="font-normal font-subtitle-light text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
             <div className="dropdown">
               <span className="flex tracking-wider">
                 Products <img src={Arrow} alt="Arrow" className="pl-2" />
@@ -58,15 +58,15 @@ export default function Navigation() {
               </div>
             </div>
           </li>
-          <li className="font-normal font-subtitle text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
+          <li className="font-normal font-subtitle-light text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
             <span className="flex tracking-wider">
               Templates <img src={Arrow} alt="Arrow" className="pl-2" />
             </span>
           </li>
-          <li className="font-normal font-subtitle text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
+          <li className="font-normal font-subtitle-light text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
             Pricing
           </li>
-          <li className="font-normal font-subtitle text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
+          <li className="font-normal font-subtitle-light text-sm text-[#4c4d5f] px-5 tracking-wider cursor-pointer">
             Reviews
           </li>
         </ul>

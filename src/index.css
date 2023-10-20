@@ -3,12 +3,21 @@
 @tailwind utilities;
 @font-face {
   font-family: "Proxima-Nova"; /* Use the same name you defined in the Tailwind config */
+  src: url("./assets/Proxima-Nova-Font/proxima_ssv/ProximaNova-Regular.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Proxima-Nova-Light"; /* Use the same name you defined in the Tailwind config */
   src: url("./assets/Proxima-Nova-Font/proxima_ssv/Proxima Nova Alt Light.otf")
+    format("truetype");
+}@font-face {
+  font-family: "Proxima-Nova"; /* Use the same name you defined in the Tailwind config */
+  src: url("./assets/Proxima-Nova-Font/proxima_ssv/ProximaNova-Regular.otf")
     format("truetype");
 }
 @font-face {
   font-family: "Proxima-Nova-Bold";
-  src: url("./assets/proximanova-bold.otf")
+  src: url("./assets/Proxima-Nova-Font/proxima_ssv/Proxima Nova Bold.otf")
     format("truetype");
 }
 @font-face {

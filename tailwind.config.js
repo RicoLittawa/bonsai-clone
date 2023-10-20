@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         subtitle: ["Proxima-Nova", "sans"],
         "subtitle-bold": ["Proxima-Nova-Bold", "sans"],
+        "subtitle-light": ["Proxima-Nova-Light", "sans"],
         title: ["amerigo", "sans"],
       },
       fontSize: {

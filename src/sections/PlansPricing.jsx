@@ -12,7 +12,7 @@ export default function PlansPricing() {
   };
   return (
     <section className="pb-20">
-      <div className="flex justify-center pt-40">
+      <div className="flex justify-center pt-44">
         <h1 className="pr-16 text-xl font-normal font-title text text-[#4c525a]">
           Plans & Pricing
         </h1>
